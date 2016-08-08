@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/frederikbolding
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://frederikbolding.me
+  * I am frederikbolding (https://keybase.io/frederikbolding) on keybase.
+  * I have a public key with fingerprint 926B 25DD 0695 6227 F8F5  4F64 5EC4 695D 79C0 8201
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011fe6c024ace44a1f1c526dd9f429845f189ec89eeb7b3936122f9850d6642a170a",
+            "fingerprint": "926b25dd06956227f8f54f645ec4695d79c08201",
+            "host": "keybase.io",
+            "key_id": "5ec4695d79c08201",
+            "kid": "01011fe6c024ace44a1f1c526dd9f429845f189ec89eeb7b3936122f9850d6642a170a",
+            "uid": "5e322d41deca0f29241faa1123d1bf19",
+            "username": "frederikbolding"
+        },
+        "service": {
+            "hostname": "frederikbolding.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470676729,
+    "expire_in": 157680000,
+    "prev": "590ebb768209995ff6917b41cf01a7a0d4d27ebcd54ae78a45872805d9a4286a",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.55
+Comment: https://keybase.io/crypto
+
+yMIfAnicrVJbSFRBGF5ru7iVRIlRdIET0W2zM7NzLrNmZKKWDxEZLIi0zjkzZzus
+7dnOnl0VtYsRmC+SIIFdFy0y6qGXaqPs7ksZ9qxtSW/RBYTI7WLNEXvzsYFhmO//
+vu+/8D9fMtfjy0vFa0uP7+1N57180pf0hK4P5loEzaLNQrBFiLLphzVQlnDCUZMK
+QUEEIgAGk3URIqIzhAgwgC5BmVJsIIhVJBlAxUznl2mKFsABGUBoYFUSqSwjSIAi
+EsEvGGYswuy4bcYcbouhrEGJUlHGkgyhYqiGhAwZSUxHHKIK1kUVioALD1sJV8GL
+00iCFZsWx/gnPF3eLPz/XHdyJk8AQooAZToRDYghAgYhAMAABZoBsEtMMDtGjjDO
+NmxGmW1GNauB8raFNr/AgylTZ+583YZmJxZz0C/EbcuxdKuBxw87Tjzoyp3muMtv
+ZFp4ximsmbFpc7+QYnbCtGJCEHCm7piuNUCKKCuyArFfYE1x02Zh02VIiqyK/Lhp
+WMrtDItM0zgKRYyxZBgyBoqGgG6IgChEpIhChWk6lRBhikqQpCpQFSWKCYKq7I4o
+wY7GLCHIMzkkwi0TZiRGnKTNhLanj+u8njyfZ/68Oe6ueXz5S/9t4Ji2YGrr/ZrU
+eOZRWe/myUzn1ZaJ05fxvOzUjv7C6t0Hhponcp+GvgY+LDzWM9waHu2sX3wzcL6i
+PHNnQ2i7/4bzs+9P0vstYz78/HMcXwq9+fXjdWV2eGRsW9Gxyy9u95Z4a6+f7Pq4
+8zeqj9KNeNWe8GpA1gymq1v7Kg7VDXQ21XkjJVMbBrryo9dKOkdqSouWhSqziw4W
+lq0/m/9izq1bb3PLCy70d/+4UrK56srabHryxLOq9oJRsOPuaGljQq7at7hn14ot
+zr0LXR2Dwsf4yuq2dSNpZ+D9GXtfvz3+qLzg4p1wblOz9eVAx6l3rQ+UCqoPvfJV
+wu7YuXZPS2b9/sHv8l8Z+UQK
+=o81/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/frederikbolding
+
+==================================================================
