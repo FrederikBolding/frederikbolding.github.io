@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.container-fluid {
+    height: 100%;
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+.row-fluid {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.centering {
+    float: none;
+    margin: 0 auto;
+}
+
+.background-image {
+    background: url(../img/bg.jpg);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+.content {
+    z-index: 2;
+}
+
+.typed-content {
+    display: none;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.social-icon {
+    opacity: 0.4;
+        font-size: 42px;
+    color: #fff;
+        -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.social-icon.start {
+    opacity: 0 !important;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+            -webkit-animation-fill-mode: forwards; 
+            -moz-animation-fill-mode: forwards; 
+            -ms-animation-fill-mode: forwards; 
+            -o-animation-fill-mode: forwards; 
+            animation-fill-mode: forwards
+}
+
+.social-icon.done:hover {
+   opacity: 1.0;
+}
+
+.social-icon.icon-twitter {
+    -webkit-animation-delay: 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 0s; /* Firefox < 16 */
+        -ms-animation-delay: 0s; /* Internet Explorer */
+         -o-animation-delay: 0s; /* Opera < 12.1 */
+            animation-delay: 0s;
+}
+
+.social-icon.icon-github {
+    -webkit-animation-delay: 0.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 0.5s; /* Firefox < 16 */
+        -ms-animation-delay: 0.5s; /* Internet Explorer */
+         -o-animation-delay: 0.5s; /* Opera < 12.1 */
+            animation-delay: 0.5s;
+}
+
+.social-icon.icon-reddit {
+    -webkit-animation-delay: 1.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 1.0s; /* Firefox < 16 */
+        -ms-animation-delay: 1.0s; /* Internet Explorer */
+         -o-animation-delay: 1.0s; /* Opera < 12.1 */
+            animation-delay: 1.0s;
+}
+
+.social-icon.icon-key {
+    -webkit-animation-delay: 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 1.5s; /* Firefox < 16 */
+        -ms-animation-delay: 1.5s; /* Internet Explorer */
+         -o-animation-delay: 1.5s; /* Opera < 12.1 */
+            animation-delay: 1.5s;
+}
+
+.social-icon.icon-mail {
+    -webkit-animation-delay: 2.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 2.0s; /* Firefox < 16 */
+        -ms-animation-delay: 2.0s; /* Internet Explorer */
+         -o-animation-delay: 2.0s; /* Opera < 12.1 */
+            animation-delay: 2.0s;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
+
+/** Typed.js Blinking Cursor **/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
