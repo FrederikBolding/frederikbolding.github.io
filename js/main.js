@@ -15,10 +15,7 @@ $(function () {
     callback: function () {
       $(".typed-cursor").first().hide();
       $("#second-part").typed({
-        stringsElement: $('#second-part-strings'),
-        typeSpeed: 0,
-        shuffle: true,
-        loop: true
+        stringsElement: $('#second-part-strings')
       });
     },
   });
