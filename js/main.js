@@ -1,4 +1,8 @@
 $(function () {
+  $(".social-icon").each(function (i) {
+    $(this).removeClass("done");
+    $(this).addClass("start");
+  });
   $(".social-icon.start").one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
     function (e) {
       if ($(this).hasClass("start")) {

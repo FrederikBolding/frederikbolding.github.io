@@ -69,10 +69,8 @@ body {
 
 .social-icon {
     opacity: 0.4;
-        font-size: 42px;
+    font-size: 42px;
     color: #fff;
-        -webkit-transition: opacity 1s;
-    transition: opacity 1s;
 }
 
 .social-icon.start {
@@ -91,6 +89,8 @@ body {
 
 .social-icon.done:hover {
    opacity: 1.0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
 .social-icon.icon-twitter {
