@@ -44,11 +44,6 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -67,8 +62,19 @@ body {
     font-size: 50px;
 }
 
+.noselect {
+    cursor: default;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
 .social-icon {
-    opacity: 0.4;
+    opacity: 0.5;
     font-size: 42px;
     color: #fff;
 }
@@ -133,35 +139,33 @@ body {
             animation-delay: 2.0s;
 }
 
-
-
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.4; }
+    to   { opacity: 0.5; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.4; }
+    to   { opacity: 0.5; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.4; }
+    to   { opacity: 0.5; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.4; }
+    to   { opacity: 0.5; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 0.4; }
+    to   { opacity: 0.5; }
 }
 
 /** Typed.js Blinking Cursor **/

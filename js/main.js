@@ -19,4 +19,10 @@ $(function () {
       });
     },
   });
+  $(".noselect").on('mousedown touchstart', function (event) {
+    event.preventDefault();
+  });
+  $(".noselect").on('mousemove touchmove', function (event) {
+    event.preventDefault();
+  });
 });
