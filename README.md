@@ -1,8 +1,8 @@
-#Frederik Bolding - Personal Site
+# Frederik Bolding - Personal Site
 
-Site can be found [here](https://frederikbolding.me)
+Site can be found [here](https://frederikbolding.com)
 
-##Resources
+## Resources
 * [Bootstrap](http://getbootstrap.com/)
 * [jQuery](https://jquery.com/)
 * [Typed.js](https://github.com/mattboldt/typed.js/)
