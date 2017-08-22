@@ -41,6 +41,12 @@
       "css": "reddit",
       "code": 62081,
       "src": "fontawesome"
+    },
+    {
+      "uid": "e70df9acbabaebfbbf9c1dbc3e52ab13",
+      "css": "twitch",
+      "code": 61928,
+      "src": "fontawesome"
     }
   ]
 }

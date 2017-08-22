@@ -123,7 +123,7 @@ body {
             animation-delay: 1.0s;
 }
 
-.social-icon.icon-key {
+.social-icon.icon-twitch {
     -webkit-animation-delay: 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation-delay: 1.5s; /* Firefox < 16 */
         -ms-animation-delay: 1.5s; /* Internet Explorer */
@@ -131,12 +131,20 @@ body {
             animation-delay: 1.5s;
 }
 
-.social-icon.icon-mail {
+.social-icon.icon-key {
     -webkit-animation-delay: 2.0s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation-delay: 2.0s; /* Firefox < 16 */
         -ms-animation-delay: 2.0s; /* Internet Explorer */
          -o-animation-delay: 2.0s; /* Opera < 12.1 */
             animation-delay: 2.0s;
+}
+
+.social-icon.icon-mail {
+    -webkit-animation-delay: 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 2.5s; /* Firefox < 16 */
+        -ms-animation-delay: 2.5s; /* Internet Explorer */
+         -o-animation-delay: 2.5s; /* Opera < 12.1 */
+            animation-delay: 2.5s;
 }
 
 @keyframes fadein {
