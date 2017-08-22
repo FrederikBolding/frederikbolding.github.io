@@ -25,12 +25,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "f2aa28a2548ed3d2be718d087b65ee21",
-      "css": "key",
-      "code": 59394,
-      "src": "fontawesome"
-    },
-    {
       "uid": "ccc2329632396dc096bb638d4b46fb98",
       "css": "mail",
       "code": 61664,
@@ -46,6 +40,12 @@
       "uid": "e70df9acbabaebfbbf9c1dbc3e52ab13",
       "css": "twitch",
       "code": 61928,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1145676a91138011729fa2909997af66",
+      "css": "linkedin-squared",
+      "code": 62220,
       "src": "fontawesome"
     }
   ]
